@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla JS Final Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1 id="clock">00:00</h1>
+
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Enter your name" required />
+            <button type="submit">Log in</button>
+        </form>
+        <h2 id="greeting" class="hidden"></h2>
+
+        <button id="logout-button" class="hidden">Log out</button>
+
+        <form id="todo-form" class="hidden">
+            <input type="text" id="todo-input" placeholder="Write a To-Do" required />
+            <button type="submit">Add</button>
+        </form>
+        <ul id="todo-list" class="hidden"></ul>
+
+        <div id="weather">
+            <span id="weather-info"></span>
+            <span id="location"></span>
+        </div>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+
+</html>
